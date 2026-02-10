@@ -148,6 +148,6 @@ function changeLanguage() {
     } else if (language === "thai") {
         successMessage.textContent = "ขอแสดงความยินดี คุณได้รับตำแหน่ง วาเลนไทน์ของฉัน อย่างเป็นทางการแล้ว ไม่รับคืนสินค้า ไม่คืนเงิน💖";
     } else {
-        successMessage.textContent = "Congratulations. You’ve officially won the title of My Valentine. No returns, no refunds💖";
+        successMessage.textContent = "Congratulations. You’ve officially won the title of My Valentine. No returns, No refunds💖";
     }
 }
