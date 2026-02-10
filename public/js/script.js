@@ -144,10 +144,10 @@ function changeLanguage() {
     // Update success message
     const successMessage = document.getElementById("success-message");
     if (language === "french") {
-        successMessage.textContent = "Priety, tu as illuminé ma journée… enfin, toute ma Saint-Valentin 💖";
+        successMessage.textContent = "SweetHeart, tu as illuminé ma journée… enfin, toute ma Saint-Valentin 💖";
     } else if (language === "thai") {
         successMessage.textContent = "พรีตี้ คุณทำให้วันของฉันสมบูรณ์แบบ... จริงๆ แล้วทำให้วันวาเลนไทน์ของฉันทั้งวันสมบูรณ์แบบเลย 💖";
     } else {
-        successMessage.textContent = "Pinky You just made my day… actually, my whole Valentine 💖";
+        successMessage.textContent = "SweetHeart You just made my day… actually, my whole Valentine 💖";
     }
 }
