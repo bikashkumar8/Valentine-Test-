@@ -124,9 +124,9 @@ function changeLanguage() {
     // Update question heading
     const questionHeading = document.getElementById("question-heading");
     if (language === "french") {
-        questionHeading.textContent = "Tu veux être mon valentin?";
+        questionHeading.textContent = "Chérie, cette Saint-Valentin me semble incomplète sans te demander… veux-tu être à moi ? ❤️?";
     } else if (language === "thai") {
-        questionHeading.textContent = "คืนดีกับเราได้อ่ะป่าว?";
+        questionHeading.textContent = "ที่รัก วันวาเลนไทน์ปีนี้จะไม่สมบูรณ์หากไม่ได้ถามคุณว่า... คุณจะเป็นของฉันได้ไหม? ❤️";
     } else {
         questionHeading.textContent = "Baby this Valentine’s Day feels incomplete without asking you… will you be mine?❤️";
     }
@@ -144,10 +144,10 @@ function changeLanguage() {
     // Update success message
     const successMessage = document.getElementById("success-message");
     if (language === "french") {
-        successMessage.textContent = "Yepppie, à bientôt :3";
+        successMessage.textContent = "Priety, tu as illuminé ma journée… enfin, toute ma Saint-Valentin 💖";
     } else if (language === "thai") {
-        successMessage.textContent = "ฮูเร่ คืนดีกันแล้วน้า :3";
+        successMessage.textContent = "พรีตี้ คุณทำให้วันของฉันสมบูรณ์แบบ... จริงๆ แล้วทำให้วันวาเลนไทน์ของฉันทั้งวันสมบูรณ์แบบเลย 💖";
     } else {
-        successMessage.textContent = "Yepppie, see you sooonnn :3";
+        successMessage.textContent = "Priety You just made my day… actually, my whole Valentine 💖";
     }
 }
