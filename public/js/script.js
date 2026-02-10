@@ -148,6 +148,6 @@ function changeLanguage() {
     } else if (language === "thai") {
         successMessage.textContent = "พรีตี้ คุณทำให้วันของฉันสมบูรณ์แบบ... จริงๆ แล้วทำให้วันวาเลนไทน์ของฉันทั้งวันสมบูรณ์แบบเลย 💖";
     } else {
-        successMessage.textContent = "Priety You just made my day… actually, my whole Valentine 💖";
+        successMessage.textContent = "Pinky You just made my day… actually, my whole Valentine 💖";
     }
 }
