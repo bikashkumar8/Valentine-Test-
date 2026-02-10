@@ -144,10 +144,10 @@ function changeLanguage() {
     // Update success message
     const successMessage = document.getElementById("success-message");
     if (language === "french") {
-        successMessage.textContent = "SweetHeart, tu as illuminé ma journée… enfin, toute ma Saint-Valentin 💖";
+        successMessage.textContent = "Félicitations ! Vous avez officiellement remporté le titre de Valentin(e). Aucun retour, aucun remboursement💖";
     } else if (language === "thai") {
-        successMessage.textContent = "พรีตี้ คุณทำให้วันของฉันสมบูรณ์แบบ... จริงๆ แล้วทำให้วันวาเลนไทน์ของฉันทั้งวันสมบูรณ์แบบเลย 💖";
+        successMessage.textContent = "ขอแสดงความยินดี คุณได้รับตำแหน่ง วาเลนไทน์ของฉัน อย่างเป็นทางการแล้ว ไม่รับคืนสินค้า ไม่คืนเงิน💖";
     } else {
-        successMessage.textContent = "SweetHeart You just made my day… actually, my whole Valentine 💖";
+        successMessage.textContent = "Congratulations. You’ve officially won the title of My Valentine. No returns, no refunds💖";
     }
 }
